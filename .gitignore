@@ -1,0 +1,34 @@
+# Credenciales y entorno (el .env.example sí se versiona)
+.env
+.env.*
+!.env.example
+
+# Comprimidos y copias de seguridad (p. ej. BarRacuda.zip duplicado)
+*.zip
+*.tar
+*.tar.gz
+*.sql
+*.bak
+
+# Logs
+*.log
+debug.log
+
+# WordPress: contenido generado por el sitio
+wp-content/uploads/
+wp-content/cache/
+wp-config.php
+
+# Dependencias
+node_modules/
+vendor/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+*~
